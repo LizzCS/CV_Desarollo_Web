@@ -43,14 +43,8 @@ li {
   border-bottom: 2px solid #150443;
 }
 
-.profile {
-  width: 30%;
-  min-width: 0;
-  color: #eeedf3;
-}
-
 .name-title {
-  width: 50%;
+  width: 60%;
   min-width: 0;
   color: #eeedf3;
 }
@@ -60,7 +54,6 @@ li {
   min-width: 0;
   color: #c5c2c5;
 }
-
 .header {
   display: flex;
   justify-content: space-between;
