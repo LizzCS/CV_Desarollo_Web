@@ -6,21 +6,44 @@
     <title>Curriculum Vitae</title>
   </head>
   <body>
-    <h1>Cristina Lizeth Sabillón Maldonado</h1>
-    <h2>Student in Computer Engineering</h2>
+    <div class="header">
+      <div class="profile">
+        <img
+          src="img\Headshot_PF_LINKEDIN.png"
+          alt="Profile Picture"
+          style="margin: auto; display: block; width: 180px; height: 210px"
+        />
+      </div>
 
-    <hr />
+      <div class="name-title">
+        <h1>Cristina Lizeth Sabillón Maldonado</h1>
+        <h2>Student in Computer Engineering</h2>
+      </div>
 
-    <h3>Profile</h3>
-    <p class="texto-fomral">
-      I am a student of Computer Engineering at the university UNITEC.I have
-      experience in programming languages such as <i>Java</i>, <i>C++</i> and
-      <i>C#</i>. I also have experience in data bases such as <i>MongoDB</i>,
+      <div class="contact-info">
+        <h3 style="margin-bottom: 0px; margin-top: 20px">
+          Contact Information
+        </h3>
+        <ul>
+          <li>Phone number: +504 9999-9999</li>
+          <li>Email: cristina.sabillon@gmail.com</li>
+          <li>LinkedIn: linkedin.com/in/cristina-sabillon</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 class="main">Profile</h3>
+    <hr class="custom-divider" />
+    <p class="texto-formal">
+      I'm a student of Computer Engineering at UNITEC, with experience in
+      programming languages such as <i>Java</i>, <i>C++</i> and <i>C#</i>. I
+      also have experience in data bases such as <i>MongoDB</i>,
       <i>MS SQL Server</i> and <i>PostgreSQL</i>. And have experience in web
-      development using <i>Next.JS</i> and <i>NestJS</i>.
+      development using <i>Next.JS</i> and <i>NestJS</i> for web development.
     </p>
 
-    <h3>Work Experience</h3>
+    <h3 class="main">Work Experience</h3>
+    <hr class="custom-divider" />
     <ul>
       <li>
         Created a web application using Next.JS and NestJS to track habit
@@ -31,18 +54,17 @@
       <li>Created an app to manage inventory of a factory line using C++.</li>
     </ul>
 
-    <h3>Contact</h3>
-    <ul>
-      <li>Phone number: +504 9999-9999</li>
-      <li>Email: cristina.sabillon@gmail.com</li>
-      <li>LinkedIn: linkedin.com/in/cristina-sabillon</li>
-    </ul>
+    <h3 class="main">Education</h3>
+    <hr class="custom-divider" />
 
-    <h3>Education</h3>
     <ul>
-      <li>Student in Computer Engineering at UNITEC, Tegucigalpa, Honduras.</li>
+      <li>
+        Student in Computer Engineering at UNITEC, San Pedro Sula, Honduras.
+      </li>
       <li>HTML course in Coursera.</li>
       <li>React Course</li>
     </ul>
   </body>
+
+  <link rel="stylesheet" href="styles.css" />
 </html>
